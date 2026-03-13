@@ -2,7 +2,7 @@ name: Build Push Deploy
 on:
   push:
     branches:
-      - main
+      - master
 env:
   IMAGE_NAME: wisecow-app
 jobs:
